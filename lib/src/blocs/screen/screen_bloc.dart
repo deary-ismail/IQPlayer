@@ -66,16 +66,16 @@ class ScreenBloc extends Bloc<ScreenEvent, ScreenState> {
       ]);
   }
 
-  void _hideStateBar() async {
-    SystemChrome.setEnabledSystemUIOverlays([]);
-  }
+  // void _hideStateBar() async {
+  //   SystemChrome.setEnabledSystemUIOverlays([]);
+  // }
 
-  void _showStateBar() async {
-    SystemChrome.setEnabledSystemUIOverlays([
-      SystemUiOverlay.top,
-      SystemUiOverlay.bottom,
-    ]);
-  }
+  // void _showStateBar() async {
+  //   SystemChrome.setEnabledSystemUIOverlays([
+  //     SystemUiOverlay.top,
+  //     SystemUiOverlay.bottom,
+  //   ]);
+  // }
 
   @override
   Future<void> close() {
